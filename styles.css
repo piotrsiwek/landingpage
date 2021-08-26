@@ -1,12 +1,15 @@
 section {
 
-    height: 100px;
+    height: 500px;
     background-color: aquamarine;
+    border: solid black 1px;
 }
 
 .whoami {
+    color: #000;
+    font-size: 40px;
     background-color: white;
-    height: 100px;
+    height: 100vh;
 
 }
 
