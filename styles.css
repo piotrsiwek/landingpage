@@ -27,6 +27,7 @@ nav {
 ul {
     display: flex;
     font-size : 1em;
+    font-style: normal; 
 }
 
 li {
