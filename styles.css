@@ -18,3 +18,16 @@ footer {
 
     margin: auto;
 }
+
+nav {
+    justify-content: space-between;
+
+    display: flex;
+}
+ul {
+    display: flex;
+}
+
+li {
+    width: 200px;
+}
