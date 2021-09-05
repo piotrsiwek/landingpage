@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    
+ 
 }
 
 section {
@@ -46,7 +46,12 @@ li {
 
 h1 {
 font-size: 90px;
+margin: 0;
 
+}
+
+p{
+    margin: 0;
 }
 
 .whoami-text {
