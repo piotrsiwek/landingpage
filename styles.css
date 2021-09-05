@@ -52,17 +52,31 @@ margin: 0;
 
 p{
     margin: 0;
+    font-size: 30px ;
+    font-weight: 300;
+}
+
+.whoami-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    justify-content: center ;
+
 }
 
 .whoami-text {
 
-    margin-left: 40px;
+    margin-left: 80px;
+    margin-bottom: 200px;
 }
 
-.button{
+.button {
 
-    width: 200px;
-    height: 50px;
-    border-radius: 25px;
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
     background-color: coral;
-}
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px ;
