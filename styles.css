@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', sans-serif;
  
 }
 
@@ -19,10 +19,7 @@ section {
 }
 
 
-footer {
 
-    margin: auto;
-}
 
 nav {
 
@@ -30,13 +27,12 @@ nav {
     justify-content: space-between;
 
 }
+
 ul {
     display: flex;
-    font-size : 1em;
-    font-style: normal; 
     list-style-type: none;
     width: 500px;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 30px;
 }
 
@@ -58,10 +54,9 @@ p{
 
 .whoami-area {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;
-    
+    align-items: center;
 
 }
 
@@ -80,7 +75,31 @@ p{
     text-align: center;
     padding-top: 5px;
     margin-top: 20px ;
-    
     font-size: 30px;
 
+
+}
+
+
+.button:hover {
+
+    background-color: greenyellow;
+
+
+}
+
+
+.button:active {
+
+    background-color: darkblue;
+    color: aqua;
+}
+
+footer {
+
+    margin: auto;
+}
+
+.whoami-social {
+    padding-bottom: 200px   ;
 }
