@@ -101,11 +101,17 @@ footer {
 }
 
 .whoami-social {
-    padding-bottom: 200px   ;
+    padding-bottom: 200px ;
+    
+}
+
+.social {
+    justify-content: space-between;
+    margin : 20px;
 }
 
 .logo {
 
-    box-sizing: 80px;
-
+height: 80px;
+margin: 30px;
 }
