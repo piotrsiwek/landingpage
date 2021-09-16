@@ -45,6 +45,9 @@ font-size: 90px;
 margin: 0;
 
 }
+h2 {
+    font-size: 50px;
+}
 
 p{
     margin: 0;
@@ -106,8 +109,8 @@ footer {
 }
 
 .social {
-    justify-content: space-between;
     margin : 20px;
+    text-decoration: none;
 }
 
 .logo {
@@ -115,3 +118,14 @@ footer {
 height: 80px;
 margin: 30px;
 }
+
+.sub-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 80px;
+}
+
+.information {
+
+}
+
