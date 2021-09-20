@@ -70,8 +70,8 @@ p {
     font-weight: 300;
 }
 
-.sub-text {
-    font-size: 15px;
+.sub_text {
+    font-size: 16px;
     font-weight: 300;
 
 
@@ -122,7 +122,12 @@ p {
 
 footer {
 
-    margin: auto;
+    height 500px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 80px;
+
 }
 
 .whoami-social {
@@ -156,11 +161,11 @@ margin: 30px;
 }    
 
 .learning_projects {
-    height: 500px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     box-shadow: 4px 4px 20px  #000;
     border: 1px solid black;
-    
+    margin: 10px;
     
     
 }    
@@ -172,3 +177,53 @@ margin: 30px;
 
 }
 
+@media only screen and (max-width: 1000px) {
+
+    .learning_projects_cointainer   {
+
+        display: flex;
+        flex-wrap: wrap ;
+    }
+}
+
+
+.learning_project_image {
+
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 100px;
+
+
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color : white;
+
+
+}
+
+.hamburger {
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display : block;
+        border: 0;
+        background-color : transparent;
+        color : white ;
+        font-size:  30px;
+    }
+
+    ul { 
+        display: none;
+
+    }
+
+}

@@ -7,25 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;600;700&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/f699cfd019.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8"/> 
 </head>
 <body>
     <section class="whoami">
         <nav>
             <img src="images/logo.png" class = "logo" alt="page logo">
             <ul>
-                <li>About me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li> <a href="#about_me">About me</a> </li>
+                <li> <a href="#learning_projects">Learning projects</a>  </li>
+                <li> <a href="#contact_me">Contact </a></li>
             </ul>
-        </nav>
+            <button class = "hamburger">
+                <i class="fas fa-bars">
+                    
+                </i>
+
+            </button>
+
+         </nav>
         <div class="whoami-area"> 
 
             <div class="whoami-text">
                 
                 <h1>Piotr Siwek</h1>
                 <p>Junior front-end developer</p>
-                <div class="button">About me</div>
+                <div class="button"> <a href="#about_me">About me</a></div>
             </div>
             <div class="whoami-social">
                 <div>
@@ -52,7 +60,7 @@
 
     </section>
     
-    <section class = "sub-section">
+    <section class = "sub-section" id="about_me">
         <div class="information">
         <H2>About me</H2>
         <p>Hello, im new a newbie front end developer. This is my landing page.</p>
@@ -62,33 +70,33 @@
         </div>
     </section>
 
-    <section class = "learning_projects_sub_section"> 
+    <section class = "learning_projects_sub_section" id = "learning_projects"> 
         <h2>Learning projects</h2>
         
         <div class = "learning_projects_cointainer">
             <div class="learning_projects">
-                <img class= "learning_project_image" src="images/learning_projects" alt="Learning Project 1 image">
+                <img class= "learning_project_image" src="images/question.png" alt="Learning Project 1 image">
                 <h3>Project 1               </h3>
                 <p class="sub_text">This is first learning project</p>
                 <hr>
                 <p class="sub_text">View it</p>
             </div>
             <div class="learning_projects">
-                <img class= "learning_project_image" src="images/learning_projects" alt="Learning Project 2 image">
+                <img class= "learning_project_image" src="images/question.png" alt="Learning Project 2 image">
                 <h3>Project 2               </h3>
                 <p class="sub_text">This is first learning project</p>
                 <hr>
                 <p class="sub_text">View it</p>
             </div>
             <div class="learning_projects">
-                <img class= "learning_project_image" src="images/learning_projects" alt="Learning Project 3 image">
+                <img class= "learning_project_image" src="images/question.png" alt="Learning Project 3 image">
                 <h3>Project 3               </h3>
                 <p class="sub_text">This is first learning project</p>
                 <hr>
                 <p class="sub_text">View it</p>
             </div>
             <div class="learning_projects">
-                <img class= "learning_project_image" src="images/learning_projects" alt="Learning Project 4 image">
+                <img class= "learning_project_image" src="images/question.png" alt="Learning Project 4 image">
                 <h3>Project 4               </h3>
                 <p class="sub_text">This is first learning project</p>
                 <hr>
@@ -100,7 +108,11 @@
 
 
 
-    <footer></footer>
+    <footer id = "contact_me">
+        <h2>Contact me</h2>
+        <p></p>
+        
+    </footer>
 
 
     <script src="src/index.js"></script>
