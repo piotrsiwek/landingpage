@@ -42,9 +42,9 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: 600px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 
@@ -230,7 +230,7 @@ a {
         margin: 0px;
 
     }
-    
+
     ul.show {
         display:  block;
     }
