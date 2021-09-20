@@ -33,11 +33,7 @@ section {
 
 }
 
-
-
-
 nav {
-
     display: flex;
     justify-content: space-between;
 
@@ -51,10 +47,7 @@ ul {
     font-size: 30px;
 }
 
-ul.show {
 
-    display:  block;
-}
 li {
    text-decoration: none;
 }
@@ -216,6 +209,11 @@ a {
 .hamburger {
     display: none;
 }
+
+.hamburger:focus {
+    outline: 0;
+}
+
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display : block;
@@ -223,11 +221,28 @@ a {
         background-color : transparent;
         color : white ;
         font-size:  30px;
+        margin: 20px;
+        align-self:  flex-end;
     }
 
     ul { 
         display: none;
+        margin: 0px;
 
+    }
+    
+    ul.show {
+        display:  block;
+    }
+
+    nav {
+        align-items: flex-start;
+        flex-direction:  column-reverse;
+    }
+
+    .logo {
+
+        display: none;
     }
 
 }
