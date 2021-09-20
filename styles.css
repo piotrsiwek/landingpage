@@ -5,10 +5,25 @@ body {
 
 section {
 
-    height: 500px;
     background-color: aquamarine;
     border: solid black 1px;
 }
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.learning_projects_sub_section   {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+    
+}
+
 
 .whoami {
     color: #000;
@@ -46,10 +61,10 @@ margin: 0;
 
 }
 h2 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
-p{
+p {
     margin: 0;
     font-size: 30px ;
     font-weight: 300;
@@ -119,13 +134,34 @@ height: 80px;
 margin: 30px;
 }
 
-.sub-section {
-    display: flex;
-    justify-content: flex-end;
-    padding: 80px;
+
+.profilepicture  {
+
+    width: 200px;
+    border-radius: 20%;
 }
 
-.information {
+.profilepicture_cointainer  {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.learning_projects {
+    height: 500px;
+    height: 200px;
+    box-shadow: #000;
+    border: 1px solid black;
+
+
+
+}
+
+.learning_projects_cointainer  {
+
+    display: flex;
+    justify-content: space-around;
 
 }
 
