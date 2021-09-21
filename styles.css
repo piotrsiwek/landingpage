@@ -25,7 +25,7 @@ section {
 }
 
 
-.whoami {
+.hero {
     color: #000;
     font-size: 40px;
     background-color: rgb(48, 29, 161);
@@ -74,7 +74,7 @@ p {
 
 }
 
-.whoami-area {
+.hero-area {
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -82,7 +82,7 @@ p {
 
 }
 
-.whoami-text {
+.hero-text {
 
     margin-left: 80px;
     margin-bottom: 200px;
@@ -127,7 +127,7 @@ footer {
 
 }
 
-.whoami-social {
+.hero-social {
     padding-bottom: 200px ;
     
 }
