@@ -5,7 +5,7 @@ body {
 
 section {
 
-    background-color: aquamarine;
+    background-color: white;
     border: solid black 1px;
 }
 
@@ -28,7 +28,7 @@ section {
 .hero {
     color: #000;
     font-size: 40px;
-    background-color: rgb(48, 29, 161);
+    background-color: #3b30ca;
     height: 100vh;
 
 }
@@ -83,7 +83,7 @@ p {
 }
 
 .hero-text {
-
+    color : white;
     margin-left: 80px;
     margin-bottom: 200px;
 }
@@ -139,7 +139,7 @@ footer {
 
 .logo {
 
-height: 80px;
+height: 100px;
 margin: 30px;
 }
 
