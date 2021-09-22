@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', sans-serif;
- 
+    background-color: black;
 }
 
 section {
@@ -330,4 +330,27 @@ form button {
 
     }
 
+}
+
+/* thanks page */
+
+.content {
+    display: row;
+    margin-top: 25px;
+    text-align: center;
+
+}
+.h1-thanks {
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    padding: 10px 10px 50px 10px;
 }
