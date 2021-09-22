@@ -6,7 +6,7 @@ body {
 section {
 
     background-color: white;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .sub-section {
@@ -93,7 +93,7 @@ p {
     width: 220px;
     height: 60px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #d76c3b;
     text-align: center;
     padding-top: 5px;
     margin-top: 20px ;
@@ -105,7 +105,7 @@ p {
 
 .button:hover {
 
-    background-color: greenyellow;
+    background-color: #ca6537;
 
 
 }
@@ -124,6 +124,9 @@ footer {
     background-color: black;
     text-align: center;
     padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -206,6 +209,8 @@ a {
 
 }
 
+
+/* hamburger menu */
 .hamburger {
     display: none;
 }
@@ -244,5 +249,62 @@ a {
 
         display: none;
     }
+
+}
+/* end of hamburger menu */
+
+
+/* Contact form */
+
+.contact-form {
+    width: 50%;
+
+
+}
+
+.contact-form form{
+    width: 100%;
+
+
+}
+
+.contact-form .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-control {
+    width: 50%;
+    border: 1px;
+    font-size:  18px ;
+    padding: 5px;
+    font-family: 'Roboto Mono', sans-serif;
+
+}
+
+.form-row .form-control:focus,
+.contact-form textarea:focus
+{
+    outline: 0;
+    background-color: yellow;
+
+
+}
+
+.contact-form textarea{
+    width: 100%;
+    padding: 0;
+    border: none;
+    resize:  none;
+    /* margin: 5px; */
+    font-size:  18px ;
+
+}
+
+form button {
+    width: 100%;
+    color : white;
+    background-color: #3b30ca;
+    font-family: 'Roboto Mono', sans-serif;
 
 }
