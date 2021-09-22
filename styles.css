@@ -315,14 +315,19 @@ form button {
     padding: 20px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
+    .contact-form {
+        width: 80%;
+    }
     .contact-form .form-row{
     display: flex;
     flex-direction: column;
     
     }
     .form-row .form-control  {
+        margin-top: 5px;
         width:  100%;
 
     }
+
 }
