@@ -135,9 +135,25 @@
 
 
     <footer id = "contact_me">
-        <h2>Contact me</h2>
-        <p></p>
+
+        <div class = "contact-form">
+
+            <h2>Contact me</h2>
+                <form target="_blank" action="https://formsubmit.co/el/wacovu" method="POST">
+                    <input type="hidden" name="_next" value="https://piotrsiwek.com/thanks.html">
+                    <input type="hidden" name="_subject" value="New email from website" />
+                    <div class="form-row">
+                        <input type="name" name="name" class="form-control" placeholder="Full name" required>
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
         
+                    </div>
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="8" required></textarea>
+                    <button type="submit" class="btn-block">Submit Form</button> 
+
+        
+
+                 </form>
+        </div>    
     </footer>
 
 
