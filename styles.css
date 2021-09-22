@@ -119,7 +119,7 @@ p {
 
 footer {
 
-    height: 500px;
+    height: auto;
     color: white;
     background-color: black;
     text-align: center;
@@ -275,10 +275,12 @@ a {
 
 .form-row .form-control {
     width: 50%;
-    border: 1px;
+    border: none;
     font-size:  18px ;
     padding: 5px;
     font-family: 'Roboto Mono', sans-serif;
+    padding: 20px 0;
+    font-weight: 600;
 
 }
 
@@ -294,10 +296,13 @@ a {
 .contact-form textarea{
     width: 100%;
     padding: 0;
-    border: none;
+    border : none;
+   /*  border: 1px solid black; */
     resize:  none;
-    /* margin: 5px; */
+    margin-top: 5px;
     font-size:  18px ;
+    padding: 20px 0;
+    font-weight: 600;
 
 }
 
@@ -306,5 +311,18 @@ form button {
     color : white;
     background-color: #3b30ca;
     font-family: 'Roboto Mono', sans-serif;
+    border: none;
+    padding: 20px;
+}
 
+@media only screen and (max-width: 1000px) {
+    .contact-form .form-row{
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .form-row .form-control  {
+        width:  100%;
+
+    }
 }
