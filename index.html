@@ -36,11 +36,11 @@
                         fill="white"
                     />
           </svg>
-            <!-- end of logo -->
+             <!-- end of logo -->
             <ul id="nav-list">
-                <li> <a href="#about_me">About me</a> </li>
-                <li> <a href="#learning_projects">Learning projects</a>  </li>
-                <li> <a href="#contact_me">Contact </a></li>
+                <li> <a class = "list-link" href="#about_me">About me</a> </li>
+                <li> <a class = "list-link" href="#learning_projects">Learning projects</a>  </li>
+                <li> <a class = "list-link" href="#contact_me">Contact </a></li>
             </ul>
             <button class = "hamburger" id = "hamburger">
                 <i class="fas fa-bars"></i>
@@ -141,19 +141,18 @@
         <div class = "contact-form">
 
             <h2>Contact me</h2>
-                <form target="_blank" action="https://formsubmit.co/el/wacovu" method="POST">
+                <form target="_blank" action="https://formsubmit.co/contact@piotrsiwek.com"" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://piotrsiwek.com/thanks.html">
                     <input type="hidden" name="_subject" value="New email from website" />
+                    <input type="hidden" name="_template" value="table">
                     <div class="form-row">
                         <input type="name" name="name" class="form-control" placeholder="Full name" required>
                         <input type="email" name="email" class="form-control" placeholder="Email" required>
         
                     </div>
                     <textarea placeholder="Your Message" class="form-control" name="message" rows="8" required></textarea>
-                    <button type="submit" class="btn-block">Submit Form</button> 
-
-        
-
+                    <button type="submit">Submit Form</button> 
                  </form>
         </div>    
     </footer>

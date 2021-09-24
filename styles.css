@@ -48,8 +48,18 @@ ul {
 }
 
 
-li {
-   text-decoration: none;
+/* li  {
+    
+} */
+
+a {
+    text-decoration-line: underline;
+    
+
+    text-decoration-color  : #0DFF9A;
+    color : white;
+    font-stretch : condensed;
+
 }
 
 h1 {
@@ -93,11 +103,12 @@ p {
     width: 220px;
     height: 60px;
     border-radius: 30px;
-    background-color: #d76c3b;
+    background-color: #0DFF9A;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 20px;
     margin-top: 20px ;
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: 600;
 
 
 }
@@ -201,13 +212,13 @@ hr {
     margin-right: 20px;
 
 }
-
+/* 
 a {
     text-decoration: none;
     color : white;
 
 
-}
+} */
 
 
 /* hamburger menu */
