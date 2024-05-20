@@ -12,6 +12,8 @@
    
 </head>
 <body>
+
+    <main class="main">
     <section class="hero">
         <nav>
             <!-- Logo for future login  -->
@@ -54,7 +56,6 @@
                 
                 <h1>Piotr Siwek</h1>
                 <p>Welcome to my homepage.</p>
-                <div class="button"> <a href="#about_me">About me</a></div>
             </div>
             <div class="hero-social">
                 <div>
@@ -90,43 +91,40 @@
     
     <section class = "sub-section" id="about_me">
         <div class="information">
+            <div class  = "profilepicture_cointainer">
+                <img class = "profilepicture" src="images/profilepicture.jpg" alt="Piotr profile picture">
+            </div>
+
         <H2>About me</H2>
-        <p>Hello, this is my landing page. I tried to learn some javascript here. </p>
-        <p>Update May 2024: Afrer reconsideration of current market I decided to move my interestest to Azure cloud solut</p>
+        <p>Hello, this is my landing page. <p style="text-decoration: line-through; font-style: oblique">I try to learn some javascript here.</p> </p>
+        <p>Update: In March 2024, after reconsidering the job market, I decided to pursue a career in Azure administration. Therefore, instead of focusing on JavaScript, I need to concentrate primarily on C#.</p>
         </div>
-        <div class  = "profilepicture_cointainer">
-            <img class = "profilepicture" src="images/profilepicture.jpg" alt="Piotr profile picture">
-        </div>
+       
     </section>
 
     <section class = "learning_projects_sub_section" id = "learning_projects"> 
         <h2>Learning projects</h2>
         
-        <div class = "learning_projects_cointainer">
-            <div class="learning_projects">
-                
-                <a target="_blank" href="learningprojects/whacamole/index.html" >
-                <img class= "learning_project_image" src="images/mole.png" alt="Learning Project 1 image">
-                <h3>Whack a mole</h3>
-                <p class="sub_text">point and click</p>
-                <hr>
-                    <p class="sub_text">View it</p>
-                </a>
-            </div>
+        <div class="learning_projects">
+            <img class="learning_project_image" src="images/mole.png" alt="Learning Project 1 image">
+            <h3>Whack a mole</h3>
+            <p class="sub_text">point and click</p>
+            <hr>
+            <a target="_blank" href="learningprojects/whacamole/index.html">
+                <p class="sub_text">View it</p>
+            </a>
+        </div>
 
-            <div class="learning_projects">
+        <div class="learning_projects">
+            <img class="learning_project_image" src="images/list.png" alt="Learning Project 1 image">
+            <h3>TODO list</h3>
+            <p class="sub_text">Simple todo list</p>
+            <hr>
+            <a target="_blank" href="learningprojects/todolist/index.html">
+                <p class="sub_text">View it</p>
+            </a>
+        </div>
 
-                 
-                <a target="_blank" href="learningprojects/todolist/index.html" >
-                 <img class= "learning_project_image" src="images/question.png" alt="Learning Project 2 image">
-                 <h3>Simple todo list.               </h3>
-                 <p class="sub_text">Very simple TODO list</p>
-                 <hr>
-                 <p class="sub_text">View it</p>
-                </a>
-                 
-
-            </div>
             <div class="learning_projects">
                 <img class= "learning_project_image" src="images/question.png" alt="Learning Project 3 image">
                 <h3>Project 3               </h3>
@@ -134,17 +132,18 @@
                 <hr>
                 <p class="sub_text">View it</p>
             </div>
+
             <div class="learning_projects">
                 <img class= "learning_project_image" src="images/question.png" alt="Learning Project 4 image">
                 <h3>Project 4               </h3>
-                <p class="sub_text">This is first learning project</p>
+                <p class="sub_text">This is fourth learning project</p>
                 <hr>
                 <p class="sub_text">View it</p>
             </div>
         </div>
 
     </section>
-
+</main>
 
 
     <footer id = "contact_me">
